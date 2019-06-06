@@ -57,7 +57,7 @@ function buildMetadata(sample) {
     //   otu_ids, and labels (10 each).
       
       
-    var data = [{
+    var data2 = [{
       values: data["sample_values"].slice(0, 10),
       labels: data["otu_ids"].slice(0, 10),
       hovertext: data["otu_labels"].slice(0,10),
@@ -69,7 +69,7 @@ function buildMetadata(sample) {
       title: "'Pie' Chart",
 };
 
-Plotly.newPlot("pie", data, layout);
+Plotly.newPlot("pie", data2, layout);
 
     });
   }
