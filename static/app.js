@@ -60,7 +60,7 @@ function buildMetadata(sample) {
     var data = [{
       values: data["sample_values"].slice(0, 10),
       labels: data["otu_ids"].slice(0, 10),
-      text: data["sample_values"].slice(0,10),
+      hovertext: data["otu_labels"].slice(0,10),
       type: 'pie'
     }];
 
