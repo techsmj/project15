@@ -35,26 +35,26 @@ function buildMetadata(sample) {
         console.log(data);
     
       // @TODO: Build a Bubble Chart using the sample data
-  //     var trace = 
-  //     {
-  //       x: data["otu_ids"],
-  //       y: data["sample_values"],
-  //       text: data["otu_labels"],
-  //       mode: 'markers',
-  //       marker: 
-  //         {
-  //           size: data["sample_values"],
-  //           color: data["otu_ids"],
-  //           colorscale: 'Earth'
-  //         }
-  //     };
-  // var data=[trace];
-  // var layout = {xaxis: { title: 'OTU ID' }};
+//       var trace = 
+//       {
+//         x: data["otu_ids"],
+//         y: data["sample_values"],
+//         text: data["otu_labels"],
+//         mode: 'markers',
+//         marker: 
+//           {
+//             size: data["sample_values"],
+//             color: data["otu_ids"],
+//             colorscale: 'Earth'
+//           }
+//       };
+//   var data=[trace];
+//   var layout = {xaxis: { title: 'OTU ID' }};
 
-  // Plotly.newPlot("bubble", data, layout);  
-      // @TODO: Build a Pie Chart
-      // HINT: You will need to use slice() to grab the top 10 sample_values,
-      // otu_ids, and labels (10 each).
+//   Plotly.newPlot("bubble", data, layout);  
+    //   @TODO: Build a Pie Chart
+    //   HINT: You will need to use slice() to grab the top 10 sample_values,
+    //   otu_ids, and labels (10 each).
       
       
     var data = [{
